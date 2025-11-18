@@ -32,7 +32,9 @@
         {
             float[] vet1 = { 4, 5, 2, 8, 5 };
 
-            float[] vet2 = Normalizza(vet1);
+            float[] vet2 = new float[vet1.Length];
+
+            vet2 = Normalizza(vet1);
 
             for (int i = 0; i < vet2.Length; i++) {
 
